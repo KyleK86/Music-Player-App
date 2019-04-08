@@ -1,0 +1,67 @@
+body {
+    background: radial-gradient(black, red);
+    font-size: 1.2em;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+
+}
+
+#songList {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+}
+
+li {
+    padding: 15px;
+
+
+}
+
+li:hover,
+svg:hover {
+    cursor: pointer;
+
+}
+
+#controls {
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+    background-color: black;
+    padding: 1.5em;
+}
+
+svg {
+    color: white;
+    background-color: black;
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+
+}
+
+.currentlyPlayingSong {
+    padding-bottom: 10px;
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+}
+
+progress {
+    margin: 10px;
+    width: 80%;
+    -webkit-appearance: none;
+   appearance: none;
+   }
+   progress::-webkit-progress-bar { /*background color */
+       background-color: #000; width: 100%;
+    }
+    progress::-webkit-progress-value /*bar color */
+     {background-color: red !important;}
+h4 {
+    font-weight: 700;
+}
